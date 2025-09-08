@@ -12,20 +12,22 @@
   <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-to-r from-green-800 to-green-900">
+<body class="bg-gradient-to-r from-green-700 to-green-800">
   <!-- Empieza Header -->
   <header>
-    <nav class="bg-gradient-to-l from-green-800 to-green-900">
-      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <nav class="fixed top-0 left-0 z-50 w-full py-2 mb-2 shadow-md bg-gradient-to-r from-green-800 to-green-900">
+      <div class="px-4 mx-auto md:py-2 max-w-7xl sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-20">
           <!-- Logo -->
           <a href="#" class="flex items-center gap-2">
-            <img src="src/resources/UltraRaceCuchillaGrande.png" class="w-auto h-20" alt="Logo">
-            <span class="hidden text-sm font-semibold text-white sm:block">Ultra Cuchilla Grande</span>
+            <img src="src/resources/UCGLogo.png" class="w-auto h-20 m-4 md:h-24 drop-shadow-md"
+              alt="Ultra Race Cuchilla Grande Logo">
+            <img src="src/resources/UCGTitle.png" class="hidden w-auto h-12 mx-4 md:h-14 sm:block drop-shadow-md"
+              alt="Ultra Race Cuchilla Grande Title">
           </a>
           <!-- Botón hamburguesa -->
           <button aria-controls="mobile-menu"
-            class="p-2 text-gray-400 rounded-md md:hidden hover:bg-green-700 hover:text-white">
+            class="p-2 px-4 text-gray-300 bg-green-700 rounded-md shadow-sm md:hidden hover:bg-gray-800 hover:text-white">
             <svg class="size-6" id="icon-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -38,31 +40,41 @@
           </button>
           <!-- Links -->
           <ul class="hidden gap-4 md:flex">
-            <li><a href="#" class="py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Carrera</a></li>
-            <li><a href="#" class="py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Ediciones
+            <li><a href="#"
+                class="py-2 text-sm text-white bg-green-800 rounded-md shadow-sm sm:px-3 hover:bg-green-700">Quienes
+                Somos</a></li>
+            <li><a href="#"
+                class="py-2 text-sm text-white bg-green-800 rounded-md shadow-sm sm:px-3 hover:bg-green-700">Carrera</a>
+            </li>
+            <li><a href="#"
+                class="py-2 text-sm text-white bg-green-800 rounded-md shadow-sm sm:px-3 hover:bg-green-700">Ediciones
                 Anteriores</a></li>
-            <li><a href="#" class="py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Testimonios</a></li>
-            <li><a href="#" class="py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Quienes Somos</a></li>
-            <li><a href="#" class="py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Inscripción</a></li>
+            <li><a href="#"
+                class="py-2 text-sm text-white bg-green-800 rounded-md shadow-sm sm:px-3 hover:bg-green-700">Testimonios</a>
+            </li>
+            <li><a href="#"
+                class="py-2 text-sm text-white bg-green-800 rounded-md shadow-sm sm:px-3 hover:bg-green-700">Inscripción</a>
+            </li>
           </ul>
         </div>
       </div>
       <!-- Menú móvil -->
       <div id="mobile-menu" class="grid hidden px-2 pb-3 md:hidden grid-col-3 place-items-center">
         <div>
-          <a href="#" class="block py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Carrera</a>
-          <a href="#" class="block py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Ediciones
+          <a href="#" class="block py-2 text-white rounded-md sm:px-3">Quienes Somos</a>
+          <a href="#" class="block py-2 text-white rounded-md sm:px-3">Carrera</a>
+          <a href="#" class="block py-2 text-white rounded-md sm:px-3">Ediciones
             Anteriores</a>
-          <a href="#" class="block py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Testimonios</a>
-          <a href="#" class="block py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Quienes Somos</a>
-          <a href="#" class="block py-2 text-sm text-white rounded-md sm:px-3 hover:bg-gray-700">Inscripción</a>
+          <a href="#" class="block py-2 text-white rounded-md sm:px-3">Testimonios</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqWHR2lymL5rMjxHaHRoRyYxm-jveFS4yBBpN8ubGAwk4a7w/viewform"
+            target="_blank" rel="noopener" class="block py-2 text-white rounded-md sm:px-3">Inscripción</a>
         </div>
       </div>
     </nav>
 
   </header>
   <!-- Empieza Main -->
-  <main class="bg-gradient-to-r from-green-800 to-green-900">
+  <main>
     <section class="container-fluid">
       <div class="splide first-carousel" role="group" aria-label="Carrusel de imagenes de paisajes de la carrera">
         <div class="splide__track">
@@ -82,14 +94,20 @@
           </ul>
         </div>
       </div>
+      <div class="flex justify-center">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqWHR2lymL5rMjxHaHRoRyYxm-jveFS4yBBpN8ubGAwk4a7w/viewform"
+          target="_blank" rel="noopener"
+          class="px-8 py-4 m-10 text-xl font-bold text-white border rounded shadow-md hover:shadow-lg border-sky-600 mt-14 bg-gradient-to-r from-sky-600 to-sky-700 shadow-cyan-600/50 hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-500">Inscribete
+          aquí!</a>
+      </div>
     </section>
     <section>
       <div
-        class="p-8 m-8 text-lg text-center text-white md:m-10 lg:m-16 md:p-10 lg:p-16 lg:text-xl text-balance bg-gradient-to-l from-green-800 to-green-900 rounded-xl">
-        <p>“La Ultramaratón Cuchilla Grande en Santa Clara de
-          Olimar es una competencia sin fines de lucro creada por corredores para corredores.”<br>
-          “Con distancias de 10 , 36 , 50 y 100 Kms pondrás al limite tu
-          resistencia mental y fisica.”
+        class="p-8 m-10 text-lg text-center text-white shadow-md md:m-14 lg:m-16 md:p-10 lg:p-16 lg:text-xl text-balance bg-gradient-to-l from-green-800 to-green-900 rounded-xl">
+        <p>La Ultramaratón Cuchilla Grande en Santa Clara de
+          Olimar es una competencia sin fines de lucro creada por corredores para corredores.<br>
+          Con distancias de 10 , 36 , 50 y 100 Kms pondrás al limite tu
+          resistencia mental y fisica.
         </p>
       </div>
     </section>
@@ -115,15 +133,12 @@
     </section>
     <section>
       <div
-        class="p-8 m-8 text-lg text-center text-white md:m-10 lg:m-16 md:p-10 lg:p-16 lg:text-xl text-balance bg-gradient-to-l from-green-800 to-green-900 rounded-xl">
-        <p>“Se desarrolla en un terreno mixto que combina diversas
-          superficies: tierra, asfalto, pasto, barro y a través de cañadas.”<br>
-          “Es una carrera de carácter rústico y cuenta con muchos desafíos
-          que la convierten en un verdadero reto.”
+        class="p-8 m-10 text-lg text-center text-white shadow-md md:m-14 lg:m-16 md:p-10 lg:p-16 lg:text-xl text-balance bg-gradient-to-l from-green-800 to-green-900 rounded-xl">
+        <p>Se desarrolla en un terreno mixto que combina diversas
+          superficies: tierra, asfalto, pasto, barro y a través de cañadas.<br>
+          Es una carrera de carácter rústico y cuenta con muchos desafíos
+          que la convierten en un verdadero reto.
         </p>
-        <button class="px-4 py-2 m-10 font-bold text-white bg-green-500 rounded hover:bg-green-700">
-          Suscríbete aqui!
-        </button>
       </div>
     </section>
   </main>
@@ -135,11 +150,10 @@
           <h3 class="text-white footer__title">Ultra Cuchilla Grande Footer</h3>
           <p class="text-white footer__text">Trail Race</p>
   </footer>
-
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <script src="src/js/menuHamburger.js"></script>
   <script src="src/js/carousel.js"></script>
-
 </body>
 
 </html>
