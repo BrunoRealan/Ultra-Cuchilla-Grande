@@ -30,14 +30,14 @@
           </a>
           <!-- Botón hamburguesa -->
           <button aria-controls="mobile-menu"
-            class="p-2 px-4 text-gray-300 bg-green-700 rounded-md shadow-sm xl:hidden hover:bg-gray-800 hover:text-white">
+            class="p-2 px-4 text-gray-300 bg-green-600 rounded-md shadow-md xl:hidden hover:bg-gray-800 hover:text-white">
             <svg class="size-6" id="icon-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
+              stroke="#f3f4f6">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
             <svg class="hidden size-6" id="icon-close" xmlns="http://www.w3.org/2000/svg" fill="none"
-              viewBox="0 0 24 24" stroke="currentColor">
+              viewBox="0 0 24 24" stroke="#f3f4f6">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18 18 6M6 6l12 12" />
             </svg>
           </button>
@@ -58,7 +58,9 @@
             <li><a href="#"
                 class="py-1 italic text-white transition duration-300 delay-150 bg-green-700 border border-green-700 rounded-lg shadow-sm sm:px-3 hover:bg-green-600 hover:shadow-lg hover:border hover:border-green-600">
                 Guía</a></li>
-            <li><a href="#"
+            <li><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdsG84GcqY-ftgQrnPd1XW2uD7ZnhTebFaofHpr7EOww1XQdQ/viewform?usp=header"
+                target="_blank" rel="noopener"
                 class="py-1 italic text-white transition duration-300 delay-150 bg-green-700 border border-green-700 rounded-lg shadow-sm sm:px-3 hover:bg-green-600 hover:shadow-lg hover:border hover:border-green-600">
                 Alojamiento</a></li>
             <li><a
@@ -78,7 +80,8 @@
           <a href="#" class="block py-2 text-lg italic text-gray-100 sm:px-3">Entrega de Kits</a>
           <a href="#" class="block py-2 text-lg italic text-gray-100 sm:px-3">Reglamento</a>
           <a href="#" class="block py-2 text-lg italic text-gray-100 sm:px-3">Guía</a>
-          <a href="#" class="block py-2 text-lg italic text-gray-100 sm:px-3">Alojamiento</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsG84GcqY-ftgQrnPd1XW2uD7ZnhTebFaofHpr7EOww1XQdQ/viewform?usp=header"
+            target="_blank" rel="noopener" class="block py-2 text-lg italic text-gray-100 sm:px-3">Alojamiento</a>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqWHR2lymL5rMjxHaHRoRyYxm-jveFS4yBBpN8ubGAwk4a7w/viewform"
             target="_blank" rel="noopener"
             class="block py-4 text-xl italic font-bold text-white sm:px-3">Inscribirme</a>
@@ -158,7 +161,8 @@
         class="w-full max-w-xs px-6 py-4 text-lg italic font-bold text-center text-white transition bg-green-600 border border-gray-600 shadow-md md:text-xl lg:px-4 rounded-xl hover:bg-green-500 hover:scale-110 hover:shadow-lg hover:shadow-green-500/50">
         Guia del Corredor
       </a>
-      <a href="#"
+      <a href="https://drive.google.com/drive/folders/1N2QwmvnU1149FnwMvwfsqEnrZeeP97TX?usp=drive_link" target="_blank"
+        rel="noopener"
         class="w-full max-w-xs px-6 py-4 text-lg italic font-bold text-center text-white transition bg-green-600 border border-gray-600 shadow-md md:text-xl lg:px-4 rounded-xl hover:bg-green-500 hover:scale-110 hover:shadow-lg hover:shadow-green-500/50">
         Resultados 2024
       </a>
@@ -242,14 +246,15 @@
         <span class="mb-3 text-2xl font-bold md:mb-6 lg:mb-8">Organiza</span>
         <ul class="flex flex-row justify-center mb-8 md:mb-16 lg:mb-20">
           <li class="flex flex-col items-center">
-            <img src="src/resources/municipio_logo.png" alt="Logo Municipio de Santa Clara" class="h-auto m-1 w-26 md:w-42">
-            <span class="block text-center w-fit">
+            <img src="src/resources/municipio_logo.png" alt="Logo de Municipio de Santa Clara"
+              class="h-auto m-1 w-30 md:w-46">
+            <span class="block text-sm text-center w-fit">
               Municipio de Santa Clara
             </span>
           </li>
         </ul>
         <span class="mt-3 text-2xl font-bold md:mt-6 lg:mt-8">Apoyan</span>
-        <ul class="flex flex-row items-center justify-center w-full gap-x-6">
+        <ul class="flex flex-row items-center justify-center w-full gap-1 md:gap-x-6">
           <li class="flex flex-col items-center flex-1 mt-5">
             <img src="src/resources/snd_logo.png" alt="Logo Secretaría Nacional del Deporte" class="w-12 h-12 m-1">
             <span class="block text-xs text-center w-26">
@@ -257,17 +262,17 @@
             </span>
           </li>
           <li class="flex flex-col items-center flex-1 mt-5">
+            <img src="src/resources/ejercito_logo.png" alt="Logo Ejército Nacional" class="w-12 h-12 m-1">
+            <span class="block text-xs text-center w-26">
+              Ejército Nacional del Uruguay
+            </span>
+          </li>
+          <!-- <li class="flex flex-col items-center flex-1 mt-5">
             <img src="src/resources/snd_logo.png" alt="Logo Secretaría Nacional del Deporte" class="w-12 h-12 m-1">
             <span class="block text-xs text-center w-26">
               Secretaría Nacional del Deporte
             </span>
-          </li>
-          <li class="flex flex-col items-center flex-1 mt-5">
-            <img src="src/resources/snd_logo.png" alt="Logo Secretaría Nacional del Deporte" class="w-12 h-12 m-1">
-            <span class="block text-xs text-center w-26">
-              Secretaría Nacional del Deporte
-            </span>
-          </li>
+          </li> -->
           <!-- ...otros apoyos... -->
         </ul>
       </div>
@@ -278,16 +283,17 @@
     <div class="border-t border-gray-600 shadow-md bg-gradient-to-l from-gray-700 to-gray-800 p-7">
       <div class="flex flex-col items-center gap-y-6 md:flex-row md:justify-around md:items-center md:gap-x-8">
         <!-- Logo secundario -->
-        <img src="src/resources/UCG-logo-white.png" class="h-16 md:h-20" alt="Ultra Race Cuchilla Grande Logo">
+        <img src="src/resources/UCG-logo-white.png" class="w-auto h-16 md:h-22" alt="Ultra Race Cuchilla Grande Logo">
         <!-- Logo y título -->
         <div class="flex flex-col items-center">
-          <img src="src/resources/UCGTitle.png" class="h-10 mb-2 md:h-14" alt="Ultra Race Cuchilla Grande Titulo">
+          <img src="src/resources/UCGTitle.png" class="w-auto h-12 mb-2 md:h-16"
+            alt="Ultra Race Cuchilla Grande Titulo">
           <p class="hidden text-xs italic text-white md:block">All Rights Reserved © 2025</p>
         </div>
         <!-- Redes Sociales -->
         <div class="flex flex-col items-center gap-2">
           <span class="text-sm italic text-white md:text-base">Seguinos en</span>
-          <div class="flex flex-row items-center gap-4">
+          <div class="flex flex-row items-center gap-x-10 md:gap-x-7">
             <a href="https://www.facebook.com/people/Ultra-Cuchilla-Grande/61573588064271/" target="_blank"
               rel="noopener">
               <img src="src/resources/faceIcon.png" class="w-auto h-8" alt="FaceBook Icon">
