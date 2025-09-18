@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ultra Cuchilla Grande - Entrega de Kits">
+    <title>Ultra Cuchilla Grande - Kits</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gradient-to-r from-green-700 to-green-800">
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="fixed top-0 left-0 z-50 w-full py-2 mb-2 shadow-md bg-gradient-to-r from-green-800 to-green-900">
+            <div class="px-4 mx-10 sm:px-6 md:py-2 lg:px-8 lg:mr-5">
+                <div class="flex items-center justify-between h-16">
+                    <!-- Logo -->
+                    <a href="../../index.html" class="flex items-center gap-2">
+                        <img src="../resources/UCGLogo.png" class="w-auto h-16 m-4 md:h-20 drop-shadow-md"
+                            alt="Ultra Race Cuchilla Grande Logo">
+                        <img src="../resources/UCGTitle.png"
+                            class="hidden w-auto h-8 mx-4 md:h-10 sm:block drop-shadow-md"
+                            alt="Ultra Race Cuchilla Grande Title">
+                    </a>
+                    <!-- Botón hamburguesa -->
+                    <button aria-controls="mobile-menu"
+                        class="p-2 px-4 text-gray-300 bg-green-600 rounded-md shadow-md xl:hidden hover:bg-gray-800 hover:text-white">
+                        <svg class="size-6" id="icon-open" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="#f3f4f6">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg class="hidden size-6" id="icon-close" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="#f3f4f6">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                    <!-- Links -->
+                    <ul class="hidden gap-4 xl:flex xl:flex-row xl:flex-nowrap xl:justify-between">
+                        <li><a href="distancias.html"
+                                class="py-1 italic text-white transition duration-300 delay-150 bg-green-700 border border-green-700 rounded-lg shadow-sm sm:px-3 hover:bg-green-600 hover:shadow-lg hover:border hover:border-green-600">
+                                Distancias</a></li>
+                        <li><a href="cronograma.html"
+                                class="py-1 italic text-white transition duration-300 delay-150 bg-green-700 border border-green-700 rounded-lg shadow-sm sm:px-3 hover:bg-green-600 hover:shadow-lg hover:border hover:border-green-600">
+                                Cronograma</a></li>
+                        <li><a href="kits.html"
+                                class="py-1 italic text-white transition duration-300 delay-150 bg-green-700 border border-green-700 rounded-lg shadow-sm sm:px-3 hover:bg-green-600 hover:shadow-lg hover:border hover:border-green-600">
+                                Kits</a></li>
+                        <li><a href="reglamento.html"
+                                class="py-1 italic text-white transition duration-300 delay-150 bg-green-700 border border-green-700 rounded-lg shadow-sm sm:px-3 hover:bg-green-600 hover:shadow-lg hover:border hover:border-green-600">
+                                Reglamento</a></li>
+                        <li><a href="#"
+                                class="py-1 italic text-white transition duration-300 delay-150 bg-green-700 border border-green-700 rounded-lg shadow-sm sm:px-3 hover:bg-green-600 hover:shadow-lg hover:border hover:border-green-600">
+                                Guía</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdsG84GcqY-ftgQrnPd1XW2uD7ZnhTebFaofHpr7EOww1XQdQ/viewform?usp=header"
+                                target="_blank" rel="noopener"
+                                class="py-1 italic text-white transition duration-300 delay-150 bg-green-700 border border-green-700 rounded-lg shadow-sm sm:px-3 hover:bg-green-600 hover:shadow-lg hover:border hover:border-green-600">
+                                Alojamiento</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeqWHR2lymL5rMjxHaHRoRyYxm-jveFS4yBBpN8ubGAwk4a7w/viewform"
+                                target="_blank" rel="noopener"
+                                class="p-3 text-xl italic font-bold text-white transition duration-300 delay-150 border rounded-lg shadow-sm bg-sky-700 border-sky-600 sm:px-3 hover:bg-sky-500 hover:shadow-md hover:border hover:border-sky-400 hover:shadow-sky-500">
+                                Inscribirme</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Menú móvil -->
+            <div id="mobile-menu"
+                class="grid hidden px-2 py-3 transition-all duration-300 ease-in-out origin-top transform scale-y-0 opacity-0 grid-col-3 place-items-center xl:hidden">
+                <div>
+                    <a href="distancias.html" class="block py-2 text-lg italic text-gray-100 sm:px-3">Distancias</a>
+                    <a href="cronograma.html" class="block py-2 text-lg italic text-gray-100 sm:px-3">Cronograma</a>
+                    <a href="kits.html" class="block py-2 text-lg italic text-gray-100 sm:px-3">Entrega de Kits</a>
+                    <a href="reglamento.html" class="block py-2 text-lg italic text-gray-100 sm:px-3">Reglamento</a>
+                    <a href="#" class="block py-2 text-lg italic text-gray-100 sm:px-3">Guía</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsG84GcqY-ftgQrnPd1XW2uD7ZnhTebFaofHpr7EOww1XQdQ/viewform?usp=header"
+                        target="_blank" rel="noopener"
+                        class="block py-2 text-lg italic text-gray-100 sm:px-3">Alojamiento</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqWHR2lymL5rMjxHaHRoRyYxm-jveFS4yBBpN8ubGAwk4a7w/viewform"
+                        target="_blank" rel="noopener"
+                        class="block py-4 text-xl italic font-bold text-white sm:px-3">Inscribirme</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main: cambia el contenido según la página -->
+    <main class="pt-24 pb-10 min-h-[90vh]">
+        <section class="flex flex-col items-center justify-center">
+            <h1 class="my-8 text-3xl font-bold text-white">Entrega de Kits</h1>
+            <div
+                class="max-w-2xl px-4 py-8 text-lg text-white shadow-md rounded-xl bg-gradient-to-l from-green-800 to-green-900">
+                <!-- Aquí va el contenido específico de la página -->
+                <p>
+                    La acreditación el día previo a la carrera y el mismo día, los participantes ya
+                    inscriptos pasaban directamente a retirar su número de competición con chip y
+                    un kit de carrera que consistía en: una bolsa de kit, bebida isotónica, cereal y
+                    camiseta del evento. Las camisetas estaban aseguradas con su talle
+                    correspondiente a los participantes inscriptos con anticipación y sujeta a
+                    disponibilidad para los participantes inscriptos el día previo a la carrera y el
+                    mismo día.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="border-t border-gray-600 shadow-md bg-gradient-to-l from-gray-700 to-gray-800 p-7">
+            <div class="flex flex-col items-center gap-y-6 md:flex-row md:justify-around md:items-center md:gap-x-8">
+                <img src="../resources/UCG-logo-white.png" class="w-auto h-16 md:h-22"
+                    alt="Ultra Race Cuchilla Grande Logo">
+                <div class="flex flex-col items-center">
+                    <img src="../resources/UCGTitle.png" class="w-auto h-12 mb-2 md:h-16"
+                        alt="Ultra Race Cuchilla Grande Titulo">
+                    <p class="hidden text-xs italic text-white md:block">All Rights Reserved © 2025</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <span class="mb-1 text-sm italic text-white md:text-base">Seguinos en</span>
+                    <div class="flex flex-row items-center gap-x-10 md:gap-x-7">
+                        <a href="https://www.facebook.com/people/Ultra-Cuchilla-Grande/61573588064271/" target="_blank"
+                            rel="noopener">
+                            <img src="../resources/faceIcon.png" class="w-auto h-8" alt="FaceBook Icon">
+                        </a>
+                        <a href="https://www.instagram.com/ultracuchillagrande/" target="_blank" rel="noopener">
+                            <img src="../resources/igIcon.png" class="w-auto h-10" alt="Instagram Icon">
+                        </a>
+                        <a href="mailto:ultracuchillagrande@gmail.com" target="_blank" rel="noopener">
+                            <img src="../resources/mail_icon.png" class="w-auto h-10" alt="Email Icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="../js/menu-hamburger.js"></script>
+    <script src="../js/carousel.js"></script>
+</body>
+
+</html>
