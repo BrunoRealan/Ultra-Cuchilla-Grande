@@ -1,37 +1,57 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const firstCarousel = new Splide('.first-carousel', {
-    type: 'loop',
-    perPage: 3, // Default: 3 slides visible
-    breakpoints: {
-      1024: { perPage: 2 }, // 2 slides for screens <= 1024px
-      640: { perPage: 1 },  // 1 slide for screens <= 640px
-    },
-    gap: '0.5rem', // Space between slides
-    autoplay: true,
-    interval: 5000,
-  }).mount();
+  const first = document.querySelector('.first-carousel');
+  if (first) {
+    new Splide(first, {
+      type: 'loop',
+      perPage: 3,
+      breakpoints: {
+        1024: { perPage: 2 },
+        640: { perPage: 1 },
+      },
+      gap: '0.5rem',
+      autoplay: true,
+      interval: 5000,
+    }).mount();
+  }
 
-  const secondCarousel = new Splide('.second-carousel', {
-    type: 'loop',
-    perPage: 3, // Default: 3 slides visible
-    breakpoints: {
-      1024: { perPage: 2 }, // 2 slides for screens <= 1024px
-      640: { perPage: 1 },  // 1 slide for screens <= 640px
-    },
-    gap: '0.5rem', // Space between slides
-    autoplay: true,
-    interval: 5000,
-  }).mount();
+  const second = document.querySelector('.second-carousel');
+  if (second) {
+    new Splide(second, {
+      type: 'loop',
+      perPage: 3,
+      breakpoints: {
+        1024: { perPage: 2 },
+        640: { perPage: 1 },
+      },
+      gap: '0.5rem',
+      autoplay: true,
+      interval: 5000,
+    }).mount();
+  }
 
-  const thirdCarousel = new Splide('.third-carousel', {
-    type: 'loop',
-    perPage: 3, // Default: 3 slides visible
-    breakpoints: {
-      1024: { perPage: 2 }, // 2 slides for screens <= 1024px
-      640: { perPage: 1 },  // 1 slide for screens <= 640px
-    },
-    gap: '0.5rem',
-    autoplay: true,
-    interval: 5000,
-  }).mount();
+  const third = document.querySelector('.third-carousel');
+  if (third) {
+    new Splide(third, {
+      type: 'loop',
+      perPage: 3,
+      breakpoints: {
+        1024: { perPage: 2 },
+        640: { perPage: 1 },
+      },
+      gap: '0.5rem',
+      autoplay: true,
+      interval: 5000,
+    }).mount();
+  }
+
+  const kit = document.querySelector('.kit-carousel');
+  if (kit) {
+    new Splide(kit, {
+      type: 'loop',
+      perPage: 1,
+      autoplay: true,
+      interval: 5000,
+      gap: '0.5rem',
+    }).mount();
+  }
 });
