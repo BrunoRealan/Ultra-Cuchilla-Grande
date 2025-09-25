@@ -53,14 +53,10 @@ Desarrollado por **Bruno Realán**
 📧 brunorealan@gmail.com  
 📱 +598 95914791
 
-## Licencia
-
-Este proyecto no tiene una licencia específica.  
-Si necesitas una, puedes agregar una sección aquí (por ejemplo, MIT, GPL, etc.).
 
 ## Capturas de pantalla
 
-![Home - PC](src/resources/front-page/front-page.webp)
+![Home - PC](src/resources/front-page/front-page-pc.webp)
 ![Home - Mobile](src/resources/front-page/front-page-mobile.webp)
 
 ---
