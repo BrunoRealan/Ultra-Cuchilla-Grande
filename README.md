@@ -59,11 +59,12 @@ Desarrollado por **Bruno Realán**
 
 
 ## Capturas de pantalla
-
+Mobil:
 ![Home - Mobile](src/resources/front-page/front-page-mobile.webp)
+
+PC:
 ![Home - PC](src/resources/front-page/front-page-pc.webp)
 
 ---
 
-**Ultra Cuchilla Grande**: ¡Poné a prueba tus límites!
-
+**Ultra Cuchilla Grande**: El camino es largo, la recompensa es enorme.
