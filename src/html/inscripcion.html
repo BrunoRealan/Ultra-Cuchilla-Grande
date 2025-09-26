@@ -111,117 +111,174 @@
     </header>
     <!-- Main Content - Inscripción -->
     <main class="flex flex-col items-center justify-center pt-24 pb-10">
-        <h1 class="my-8 text-3xl font-bold text-center text-white drop-shadow-md drop-shadow-black">Inscripciones</h1>
+        <h1 class="my-8 text-3xl font-bold text-center text-white drop-shadow-md drop-shadow-black">Inscripciones
+        </h1>
+
+        <!-- ¿Qué incluye la inscripción? -->
         <section
-            class="max-w-3xl p-6 mx-auto my-12 border border-gray-700 drop-shadow-gray-900 drop-shadow-md bg-gradient-to-l from-green-900 to-green-800 rounded-xl">
-            <h2 class="mb-6 text-2xl font-bold text-center text-white drop-shadow-black drop-shadow-md">¿Qué incluye la
-                inscripción?</h2>
-            <ul class="mb-8 text-base text-green-200 list-disc list-inside">
+            class="max-w-3xl p-6 mx-3 my-12 border border-gray-700 drop-shadow-black drop-shadow-md bg-gradient-to-l from-green-900 to-green-800 rounded-xl">
+            <h2 class="mb-6 text-2xl font-bold text-center text-white drop-shadow-black drop-shadow-md">¿Qué incluye
+                la inscripción?</h2>
+            <ul class="mb-8 text-base text-green-100 list-disc list-inside">
                 <li>Acceso completo a los servicios del evento</li>
                 <li>Apoyo técnico y médico de la organización durante la carrera</li>
                 <li>Kit de carrera</li>
                 <li>Medalla finisher</li>
             </ul>
-            <div class="grid gap-8 md:grid-cols-2">
-                <div>
-                    <h3 class="mb-3 text-xl font-bold text-green-300 drop-shadow-black drop-shadow-sm">Inscripción
-                        Individual</h3>
-                    <ol class="mb-4 text-green-100 list-decimal list-inside">
-                        <li>Verifica que cumples los requisitos (<a href="reglamento.html"
-                                class="text-green-300 underline">Leer reglamento</a>)</li>
-                        <li>Compra tu inscripción</li>
-                        <li>Completa el formulario de inscripción</li>
-                        <li>Recibirás un correo electrónico con la confirmación (puede tardar hasta 10 días)</li>
-                    </ol>
-                    <div class="flex gap-4 mt-4">
-                        <a href="https://redtickets.uy/eventoprivado/24519/UltraCuchillaGrande2026-713449/"
-                            target="_blank" rel="noopener"
-                            class="px-4 py-2 italic font-bold text-center text-white transition bg-yellow-600 border-yellow-500 rounded-lg border-1 hover:bg-yellow-500 hover:drop-shadow-md hover:drop-shadow-black/80 hover:scale-110">Comprar
-                            Inscripción</a>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqWHR2lymL5rMjxHaHRoRyYxm-jveFS4yBBpN8ubGAwk4a7w/viewform?usp=sf_link"
-                            target="_blank" rel="noopener"
-                            class="px-4 py-2 italic font-bold text-center text-white transition rounded-lg bg-sky-600 border-sky-500 border-1 hover:bg-sky-500 hover:drop-shadow-md hover:drop-shadow-black/80 hover:scale-110">Formulario
-                            de Inscripción</a>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="mb-3 text-xl font-bold text-green-300 drop-shadow-sm drop-shadow-black">Inscripción por
-                        Grupo</h3>
-                    <ol class="mb-4 text-green-100 list-decimal list-inside">
-                        <li>Cada integrante debe verificar requisitos (<a href="reglamento.html"
-                                class="text-green-300 underline">Leer reglamento</a>)</li>
-                        <li>Lista con integrantes (mínimo 10)</li>
-                        <li>Coordinar pago de inscripción del grupo</li>
-                        <li>Cada integrante completa el formulario y sube comprobante</li>
-                        <li>Recibe confirmación por correo (hasta 10 días)</li>
-                    </ol>
-                    <div class="mt-2 text-sm text-green-200">
-                        <span class="font-bold drop-shadow-xs drop-shadow-black">Contacto:</span>
-                        <br>
-                        <a href="mailto:ultracuchillagrande@gmail.com"
-                            class="text-green-300 underline">ultracuchillagrande@gmail.com</a>
-                        <br>
-                        <span>+598 95 730 331 (Jorge Realán - Director)</span>
-                    </div>
-                </div>
+            <p class="mb-2 italic text-center text-white">Existen dos tipos de inscripción: <span
+                    class="font-bold text-yellow-300 drop-shadow-black drop-shadow-sm">Individual</span> y <span
+                    class="font-bold text-yellow-300 drop-shadow-black drop-shadow-sm">Grupo</span>.<br>
+                <span class="text-yellow-300">Inscribirse en grupo no es lo mismo que participar por equipo.</span>
+                (<a href="reglamento.html" class="text-green-300 underline">Leer reglamento</a>)
+            </p>
+        </section>
+
+        <!-- Inscripción Individual -->
+        <section
+            class="max-w-3xl p-6 mx-3 my-12 border border-gray-700 drop-shadow-black drop-shadow-md bg-gradient-to-l from-green-900 to-green-800 rounded-xl">
+            <h3 class="mb-3 text-xl font-bold text-white drop-shadow-black drop-shadow-sm">Inscripción
+                Individual</h3>
+            <ol class="mb-4 text-green-100 list-decimal list-inside">
+                <li>Verifica que cumples los requisitos (<a href="reglamento.html" class="text-green-300 underline">Leer
+                        reglamento</a>)</li>
+                <li>Compra tu inscripción</li>
+                <li>Completa el formulario de inscripción</li>
+                <li>Recibirás un correo electrónico con la confirmación de tu inscripción (puede tardar hasta 10
+                    días)</li>
+            </ol>
+            <div class="flex flex-wrap justify-center gap-4 my-8 md:gap-8">
+                <a href="https://redtickets.uy/eventoprivado/24519/UltraCuchillaGrande2026-713449/" target="_blank"
+                    rel="noopener"
+                    class="px-4 py-2 italic font-bold text-center text-white transition bg-yellow-600 border-yellow-500 rounded-lg border-1 hover:bg-yellow-500 hover:drop-shadow-md hover:drop-shadow-black/80 hover:scale-110">Comprar
+                    inscripción</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqWHR2lymL5rMjxHaHRoRyYxm-jveFS4yBBpN8ubGAwk4a7w/viewform?usp=sf_link"
+                    target="_blank" rel="noopener"
+                    class="px-4 py-2 italic font-bold text-center text-white transition rounded-lg bg-sky-600 border-sky-500 border-1 hover:bg-sky-500 hover:drop-shadow-md hover:drop-shadow-black/80 hover:scale-110">Formulario
+                    de inscripción</a>
+            </div>
+            <div class="mt-6 text-sm">
+                <span class="font-bold text-white drop-shadow-black drop-shadow-sm">Información importante:</span>
+                <ul class="mt-2 text-green-100 list-disc list-inside">
+                    <li>La inscripción es personal. No se reembolsará bajo ningún concepto.</li>
+                    <li>Al comprar la inscripción, el participante asegura su cupo.</li>
+                    <li>Debe completar el formulario lo antes posible, adjuntando el comprobante de pago.</li>
+                </ul>
             </div>
         </section>
+
+        <!-- Franja 1 de inscripción -->
         <section
-            class="max-w-3xl p-6 mx-auto my-12 border border-gray-700 bg-gradient-to-l from-green-900 to-green-800 rounded-xl drop-shadow-gray-900 drop-shadow-md">
+            class="max-w-3xl p-6 mx-3 my-12 border border-gray-700 bg-gradient-to-l from-green-900 to-green-800 rounded-xl drop-shadow-black drop-shadow-md">
             <h2 class="mb-6 text-2xl font-bold text-center text-white drop-shadow-black drop-shadow-md">Franja 1 de
                 Inscripción</h2>
-            <p class="mb-4 text-center text-green-200">Disponible hasta el <span class="font-bold text-yellow-300">30 de
-                    noviembre de 2025</span> o hasta agotar cupos.</p>
+            <p class="mb-4 text-center text-green-100">Disponible hasta el <span
+                    class="font-bold text-yellow-300 drop-shadow-black drop-shadow-sm">30 de
+                    noviembre de 2025</span> o hasta agotar cupos.<br>
+                Cada franja tiene fecha límite y cupos. Al agotarse, se habilita la siguiente con precios
+                diferentes.
+            </p>
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
                 <div class="p-4 text-center border shadow border-emerald-800 bg-emerald-700 rounded-xl">
-                    <span class="block mb-2 text-xl font-bold text-yellow-300">10K</span>
-                    <span class="block text-2xl font-bold text-white">$700</span>
+                    <span
+                        class="block mb-2 text-xl font-bold text-yellow-300 drop-shadow-black/50 drop-shadow-sm">10K</span>
+                    <span class="block text-2xl font-bold text-white drop-shadow-black/50 drop-shadow-sm">$700</span>
                 </div>
                 <div class="p-4 text-center border shadow border-emerald-800 bg-emerald-700 rounded-xl">
-                    <span class="block mb-2 text-xl font-bold text-yellow-300">36K</span>
-                    <span class="block text-2xl font-bold text-white">$1700</span>
+                    <span
+                        class="block mb-2 text-xl font-bold text-yellow-300 drop-shadow-black/50 drop-shadow-sm">36K</span>
+                    <span class="block text-2xl font-bold text-white drop-shadow-black/50 drop-shadow-sm">$1700</span>
                 </div>
                 <div class="p-4 text-center border shadow border-emerald-800 bg-emerald-700 rounded-xl">
-                    <span class="block mb-2 text-xl font-bold text-yellow-300">50K</span>
-                    <span class="block text-2xl font-bold text-white">$2700</span>
+                    <span
+                        class="block mb-2 text-xl font-bold text-yellow-300 drop-shadow-black/50 drop-shadow-sm">50K</span>
+                    <span class="block text-2xl font-bold text-white drop-shadow-black/50 drop-shadow-sm">$2700</span>
                 </div>
                 <div class="p-4 text-center border border-yellow-400 shadow bg-emerald-700 rounded-xl">
-                    <span class="block mb-2 text-xl font-bold text-yellow-300">100K</span>
-                    <span class="block text-2xl font-bold text-white">$3300</span>
                     <span
-                        class="inline-block px-2 py-1 mt-2 text-xs font-bold text-yellow-900 bg-yellow-300 rounded-full shadow animate-pulse">Nueva</span>
+                        class="block mb-2 text-xl font-bold text-yellow-300 drop-shadow-black/50 drop-shadow-sm">100K</span>
+                    <span class="block text-2xl font-bold text-white drop-shadow-black/50 drop-shadow-sm">$3300</span>
+                    <span
+                        class="inline-block px-2 py-1 mt-2 text-xs font-bold text-yellow-900 bg-yellow-300 rounded-full shadow animate-pulse drop-shadow-black/50 drop-shadow-sm">Nueva</span>
                 </div>
             </div>
-            <p class="mt-6 text-sm text-center text-green-200">Cada franja tiene fecha límite y cupos. Al agotarse, se
-                habilita la siguiente con precios diferentes.</p>
         </section>
+
+        <!-- Inscripción por grupo -->
         <section
-            class="max-w-3xl p-6 mx-auto my-12 border border-gray-700 bg-gradient-to-l from-green-900 to-green-800 rounded-xl drop-shadow-gray-900 drop-shadow-lg">
-            <h2 class="mb-4 text-xl font-bold text-green-300 drop-shadow-black drop-shadow-sm">Información Importante
-            </h2>
-            <ul class="mb-4 text-green-200 list-disc list-inside">
-                <li>La inscripción es personal y no se reembolsará bajo ningún concepto.</li>
-                <li>El cupo se asegura al comprar la inscripción y completar el formulario con comprobante de pago.</li>
-                <li>El pago por transferencia solo aplica para inscripciones por grupo.</li>
-                <li>Inscripción por grupo: mínimo 10 integrantes, cupos limitados.</li>
-            </ul>
-            <h3 class="mb-2 text-lg font-bold text-green-300 drop-shadow-black drop-shadow-sm">Precios por grupo
-                (individuales)</h3>
-            <div class="grid grid-cols-2 gap-4 mb-4">
-                <div class="p-3 text-center text-white border rounded-lg border-emerald-800 bg-emerald-700">10K - $600
-                </div>
-                <div class="p-3 text-center text-white border rounded-lg border-emerald-800 bg-emerald-700">36K - $1600
-                </div>
-                <div class="p-3 text-center text-white border rounded-lg border-emerald-800 bg-emerald-700">50K - $2600
-                </div>
-                <div class="p-3 text-center text-white border border-yellow-400 rounded-lg bg-emerald-700">100K - $3200
-                </div>
+            class="max-w-3xl p-6 mx-3 my-12 border border-gray-700 drop-shadow-black drop-shadow-md bg-gradient-to-l from-green-900 to-green-800 rounded-xl">
+            <h3 class="mb-3 text-xl font-bold text-white drop-shadow-black drop-shadow-sm">Inscripción por Grupo
+            </h3>
+            <ol class="mb-4 text-green-100 list-decimal list-inside">
+                <li>Cada integrante debe verificar que cumple los requisitos (<a href="reglamento.html"
+                        class="text-green-300 underline">Leer reglamento</a>)</li>
+                <li>Lista con integrantes del grupo (<span
+                        class="font-bold text-yellow-300 drop-shadow-black drop-shadow-xs">mínimo 10
+                        integrantes</span>)</li>
+                <li>Datos requeridos de cada integrante:
+                    <ul class="ml-4 text-green-200 list-disc list-inside">
+                        <li>Nombre y Apellido</li>
+                        <li>Documento Nacional de Identidad</li>
+                        <li>Nacionalidad (si es extranjero con documento uruguayo, debe registrarse como uruguayo)
+                        </li>
+                    </ul>
+                </li>
+                <li>Coordinar pago de inscripción del grupo</li>
+                <li>Contacto:
+                    <ul class="ml-4 text-green-200 list-none">
+                        <li><a href="mailto:ultracuchillagrande@gmail.com"
+                                class="text-green-300 underline">ultracuchillagrande@gmail.com</a></li>
+                        <li>+598 95 730 331 (Jorge Realán - Director Gral)</li>
+                    </ul>
+                </li>
+                <li>Cada integrante debe completar el formulario de inscripción y subir el comprobante de pago del
+                    grupo</li>
+                <li>Cada integrante recibirá un correo electrónico confirmando el estado de su inscripción (puede
+                    tardar hasta 10 días)</li>
+            </ol>
+            <div class="flex flex-wrap justify-center gap-4 my-8 md:gap-8">
+                <a href="https://redtickets.uy/eventoprivado/24519/UltraCuchillaGrande2026-713449/" target="_blank"
+                    rel="noopener"
+                    class="px-4 py-2 italic font-bold text-center text-white transition bg-yellow-600 border-yellow-500 rounded-lg border-1 hover:bg-yellow-500 hover:drop-shadow-md hover:drop-shadow-black/80 hover:scale-110">Comprar
+                    inscripción</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqWHR2lymL5rMjxHaHRoRyYxm-jveFS4yBBpN8ubGAwk4a7w/viewform?usp=sf_link"
+                    target="_blank" rel="noopener"
+                    class="px-4 py-2 italic font-bold text-center text-white transition rounded-lg bg-sky-600 border-sky-500 border-1 hover:bg-sky-500 hover:drop-shadow-md hover:drop-shadow-black/80 hover:scale-110">Formulario
+                    de inscripción</a>
             </div>
-            <h3 class="mb-2 text-lg font-bold text-green-300 drop-shadow-black drop-shadow-sm">Consultas</h3>
-            <p class="text-green-200">
-                Escribinos a <a href="mailto:ultracuchillagrande@gmail.com"
+            <div class="mt-6 text-sm text-green-100">
+                <span class="font-bold text-white">Información importante:</span>
+                <ul class="mt-2 list-disc list-inside">
+                    <li>La inscripción es personal. No se reembolsará bajo ningún concepto.</li>
+                    <li>La inscripción por grupo asegura el cupo de cada integrante.</li>
+                    <li>Cada integrante debe completar el formulario lo antes posible, adjuntando el comprobante de
+                        pago.</li>
+                    <li>El pago por transferencia solo aplica para inscripciones por grupo.</li>
+                    <li>La inscripción por grupo cuenta con cupos limitados. Al agotarse, solo será posible
+                        inscribirse de manera individual.</li>
+                </ul>
+            </div>
+            <h3 class="mt-6 mb-2 text-lg font-bold text-white drop-shadow-black drop-shadow-sm">Precios
+                individuales en inscripción por grupo</h3>
+            <div class="grid grid-cols-2 gap-4 mb-4">
+                <div class="p-3 text-center text-white border rounded-lg border-emerald-800 bg-emerald-700">10K -
+                    $600</div>
+                <div class="p-3 text-center text-white border rounded-lg border-emerald-800 bg-emerald-700">36K -
+                    $1600</div>
+                <div class="p-3 text-center text-white border rounded-lg border-emerald-800 bg-emerald-700">50K -
+                    $2600</div>
+                <div class="p-3 text-center text-white border border-yellow-400 rounded-lg bg-emerald-700">100K -
+                    $3200</div>
+            </div>
+        </section>
+
+        <!-- Consultas -->
+        <section
+            class="max-w-3xl p-6 mx-3 mt-12 mb-6 border border-gray-700 bg-gradient-to-l from-green-900 to-green-800 rounded-xl drop-shadow-black drop-shadow-lg">
+            <h2 class="mb-4 text-xl font-bold text-white drop-shadow-black drop-shadow-sm">Consultas</h2>
+            <p class="text-green-100">
+                Las consultas respecto a inscripciones deben realizarse por correo electrónico a
+                <a href="mailto:ultracuchillagrande@gmail.com"
                     class="text-green-300 underline">ultracuchillagrande@gmail.com</a>
-                para cualquier consulta sobre inscripciones.
             </p>
         </section>
     </main>
